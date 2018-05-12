@@ -13,8 +13,8 @@ A super simple introduction to orchestrating the google cloud platform ( GCP ) w
    - terraform plan
    - terraform apply
 
-5. if this is successful you should get the ip of your instance in the output of your terminal, you can also double check this in your GCP account, you should see once new compute instance running
+5. if this is successful you should get the ip of your instance in the output of your terminal, you can also double check this in your GCP account, you should see one new compute instance running
 
-6. you can shut the instance down from terraform by running 'terraform destroy' or by juts shutting off the instance in your GCP account 
+6. you can shut the instance down from terraform by running 'terraform destroy' or by just shutting off the instance in your GCP account 
 
 
