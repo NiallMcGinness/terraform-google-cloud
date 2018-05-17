@@ -21,5 +21,8 @@ metadata_startup_script = "echo test written in terraform script > /test.txt"
 
   network_interface {
     network = "default"
+
   }
+  // adding blanmk access_config will create an ephemeral public ip 
+  access_config {   }
 }
